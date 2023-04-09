@@ -1,1 +1,2 @@
-# Esercizi_Cs
+Esercizi_Cs
+Programmi in C#
