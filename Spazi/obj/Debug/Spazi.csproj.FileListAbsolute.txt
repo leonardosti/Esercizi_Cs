@@ -1,0 +1,8 @@
+C:\Users\utente\Desktop\Esercizi_Cs\Spazi\bin\Debug\Spazi.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\Spazi\bin\Debug\Spazi.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Spazi\bin\Debug\Spazi.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\Spazi\obj\Debug\Spazi.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Spazi\obj\Debug\Spazi.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Spazi\obj\Debug\Spazi.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Spazi\obj\Debug\Spazi.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Spazi\obj\Debug\Spazi.pdb
