@@ -1,0 +1,8 @@
+C:\Users\utente\Desktop\Esercizi_Cs\DividiFrase\bin\Debug\DividiFrase.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\DividiFrase\bin\Debug\DividiFrase.exe
+C:\Users\utente\Desktop\Esercizi_Cs\DividiFrase\bin\Debug\DividiFrase.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\DividiFrase\obj\Debug\DividiFrase.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\DividiFrase\obj\Debug\DividiFrase.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\DividiFrase\obj\Debug\DividiFrase.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\DividiFrase\obj\Debug\DividiFrase.exe
+C:\Users\utente\Desktop\Esercizi_Cs\DividiFrase\obj\Debug\DividiFrase.pdb
