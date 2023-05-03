@@ -1,0 +1,8 @@
+C:\Users\utente\Desktop\Esercizi_Cs\MarginaFrase\bin\Debug\MarginaFrase.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\MarginaFrase\bin\Debug\MarginaFrase.exe
+C:\Users\utente\Desktop\Esercizi_Cs\MarginaFrase\bin\Debug\MarginaFrase.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\MarginaFrase\obj\Debug\MarginaFrase.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\MarginaFrase\obj\Debug\MarginaFrase.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\MarginaFrase\obj\Debug\MarginaFrase.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\MarginaFrase\obj\Debug\MarginaFrase.exe
+C:\Users\utente\Desktop\Esercizi_Cs\MarginaFrase\obj\Debug\MarginaFrase.pdb

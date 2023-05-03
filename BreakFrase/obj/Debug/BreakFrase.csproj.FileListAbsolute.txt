@@ -1,0 +1,23 @@
+E:\classi informatica\3F Informatica\Matteo_Fuso_C#\Funzioni\BreakFrase\bin\Debug\BreakFrase.exe.config
+E:\classi informatica\3F Informatica\Matteo_Fuso_C#\Funzioni\BreakFrase\bin\Debug\BreakFrase.exe
+E:\classi informatica\3F Informatica\Matteo_Fuso_C#\Funzioni\BreakFrase\bin\Debug\BreakFrase.pdb
+E:\classi informatica\3F Informatica\Matteo_Fuso_C#\Funzioni\BreakFrase\obj\Debug\BreakFrase.csproj.AssemblyReference.cache
+E:\classi informatica\3F Informatica\Matteo_Fuso_C#\Funzioni\BreakFrase\obj\Debug\BreakFrase.csproj.CoreCompileInputs.cache
+E:\classi informatica\3F Informatica\Matteo_Fuso_C#\Funzioni\BreakFrase\obj\Debug\BreakFrase.exe
+E:\classi informatica\3F Informatica\Matteo_Fuso_C#\Funzioni\BreakFrase\obj\Debug\BreakFrase.pdb
+G:\Il mio Drive\Esercizi\Metodi\BreakFrase\bin\Debug\BreakFrase.exe.config
+G:\Il mio Drive\Esercizi\Metodi\BreakFrase\bin\Debug\BreakFrase.exe
+G:\Il mio Drive\Esercizi\Metodi\BreakFrase\bin\Debug\BreakFrase.pdb
+G:\Il mio Drive\Esercizi\Metodi\BreakFrase\obj\Debug\BreakFrase.csproj.AssemblyReference.cache
+G:\Il mio Drive\Esercizi\Metodi\BreakFrase\obj\Debug\BreakFrase.csproj.SuggestedBindingRedirects.cache
+G:\Il mio Drive\Esercizi\Metodi\BreakFrase\obj\Debug\BreakFrase.csproj.CoreCompileInputs.cache
+G:\Il mio Drive\Esercizi\Metodi\BreakFrase\obj\Debug\BreakFrase.exe
+G:\Il mio Drive\Esercizi\Metodi\BreakFrase\obj\Debug\BreakFrase.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\BreakFrase\bin\Debug\BreakFrase.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\BreakFrase\bin\Debug\BreakFrase.exe
+C:\Users\utente\Desktop\Esercizi_Cs\BreakFrase\bin\Debug\BreakFrase.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\BreakFrase\obj\Debug\BreakFrase.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\BreakFrase\obj\Debug\BreakFrase.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\BreakFrase\obj\Debug\BreakFrase.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\BreakFrase\obj\Debug\BreakFrase.exe
+C:\Users\utente\Desktop\Esercizi_Cs\BreakFrase\obj\Debug\BreakFrase.pdb
