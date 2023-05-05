@@ -1,0 +1,8 @@
+C:\Users\utente\Desktop\Esercizi_Cs\AgendaTelefonica\bin\Debug\AgendaTelefonica.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\AgendaTelefonica\bin\Debug\AgendaTelefonica.exe
+C:\Users\utente\Desktop\Esercizi_Cs\AgendaTelefonica\bin\Debug\AgendaTelefonica.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\AgendaTelefonica\obj\Debug\AgendaTelefonica.exe
+C:\Users\utente\Desktop\Esercizi_Cs\AgendaTelefonica\obj\Debug\AgendaTelefonica.pdb
