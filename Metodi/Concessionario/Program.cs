@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 namespace Concessionario
@@ -15,11 +16,11 @@ namespace Concessionario
         static void Main(string[] args)
         {
             const int maxAuto = 3;
-            bool valida;
             int n = 0;
-            string risposta;
-
+            bool trMarca = false, trModello = false;
+            string risposta, marca, modello;
             Vettura[] auto = new Vettura[maxAuto];
+
             do
             {
                 Console.Clear();
@@ -32,12 +33,37 @@ namespace Concessionario
                 {
                     Console.WriteLine("La concessionaria è piena");
                 }
-                Console.WriteLine("vuoi inserire un altra auto? (si/no)");
+                Console.Clear();
+                Console.WriteLine("Vuoi inserire un altra auto? (si/no)");
                 risposta = Console.ReadLine().ToLower();
+                Console.WriteLine();
             } while (risposta == "si");
+            Console.WriteLine("Vuoi cercare un auto nella concessionaria?");
+            risposta = Console.ReadLine();
+            Console.Clear();
+            if (risposta == "si")
+            {
+                Console.WriteLine("Inserisci la marca da cercare");
+                marca = Console.ReadLine();
+                Console.WriteLine("Inserisci il modello da cercare");
+                modello = Console.ReadLine();
+                Cerca(ref trMarca, ref trModello, marca, modello, auto, n);
+                if (trMarca && trModello)
+                {
+                    Console.WriteLine("Auto presente nella concessionaria\n");
+                }
+                else
+                {
+                    Console.WriteLine("Auto non presente nella concessionaria\n");
+                }
+            }
             Visualizza(auto, n);
             Console.ReadLine();
         }
+        // Definizione: Inserire il marca, modello e prezzo dell'auto
+        // Parametri:
+        // Input: true 
+        // Output: auto
         static Vettura InsAuto(bool valida)
         {
             Vettura auto = new Vettura();
@@ -53,6 +79,10 @@ namespace Concessionario
             auto.prezzo = double.Parse(Console.ReadLine());
             return auto;
         }
+        // Definizione: Output marca, modello, targa e prezzo dell'auto
+        // Parametri:
+        // Input: array auto, contatore n 
+        // Output: void
         static void Visualizza(Vettura[] auto, int n)
         {
             for (int i = 0; i < n; i++)
@@ -64,6 +94,10 @@ namespace Concessionario
                 Console.WriteLine();
             }
         }
+        // Definizione: Generare il numero della targa
+        // Parametri:
+        // Input: auto.targa per riferimento
+        // Output void
         static void Genera(ref string targa)
         {
             Random casuale = new Random();
@@ -77,6 +111,18 @@ namespace Concessionario
                 {
                     targa += casuale.Next(0, 10);
                 }
+            }
+        }
+        // Definizione: Cercare se un auto è presente tramite marca modello
+        // Parametri:
+        // Input: trMarca - trModello per riferimento, marca, modello, auto, n
+        // Output void
+        static void Cerca(ref bool trMarca,ref bool trModello, string marca, string modello, Vettura[] auto, int n)
+        {
+            for (int i = 0; i < n && !trMarca && !trModello; i++)
+            {
+                trMarca = auto[i].marca == marca;
+                trModello = auto[i].modello == modello;
             }
         }
     }

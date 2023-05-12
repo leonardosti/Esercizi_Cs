@@ -6,3 +6,11 @@ C:\Users\utente\Desktop\Esercizi_Cs\Concessionario\obj\Debug\Concessionario.cspr
 C:\Users\utente\Desktop\Esercizi_Cs\Concessionario\obj\Debug\Concessionario.csproj.CoreCompileInputs.cache
 C:\Users\utente\Desktop\Esercizi_Cs\Concessionario\obj\Debug\Concessionario.exe
 C:\Users\utente\Desktop\Esercizi_Cs\Concessionario\obj\Debug\Concessionario.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\Concessionario\bin\Debug\Concessionario.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\Concessionario\bin\Debug\Concessionario.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\Concessionario\bin\Debug\Concessionario.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\Concessionario\obj\Debug\Concessionario.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\Concessionario\obj\Debug\Concessionario.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\Concessionario\obj\Debug\Concessionario.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\Concessionario\obj\Debug\Concessionario.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\Concessionario\obj\Debug\Concessionario.pdb
