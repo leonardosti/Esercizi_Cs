@@ -6,3 +6,11 @@ C:\Users\utente\Desktop\Esercizi_Cs\GiocoDelLotto\obj\Debug\GiocoDelLotto.csproj
 C:\Users\utente\Desktop\Esercizi_Cs\GiocoDelLotto\obj\Debug\GiocoDelLotto.csproj.CoreCompileInputs.cache
 C:\Users\utente\Desktop\Esercizi_Cs\GiocoDelLotto\obj\Debug\GiocoDelLotto.exe
 C:\Users\utente\Desktop\Esercizi_Cs\GiocoDelLotto\obj\Debug\GiocoDelLotto.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\GiocoDelLotto\bin\Debug\GiocoDelLotto.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\GiocoDelLotto\bin\Debug\GiocoDelLotto.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\GiocoDelLotto\bin\Debug\GiocoDelLotto.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\GiocoDelLotto\obj\Debug\GiocoDelLotto.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\GiocoDelLotto\obj\Debug\GiocoDelLotto.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\GiocoDelLotto\obj\Debug\GiocoDelLotto.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\GiocoDelLotto\obj\Debug\GiocoDelLotto.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Metodi\GiocoDelLotto\obj\Debug\GiocoDelLotto.pdb

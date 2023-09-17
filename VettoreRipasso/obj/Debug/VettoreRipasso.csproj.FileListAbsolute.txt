@@ -1,0 +1,15 @@
+E:\Osti_Leonardo_4F\VettoreRipasso\VettoreRipasso\bin\Debug\VettoreRipasso.exe.config
+E:\Osti_Leonardo_4F\VettoreRipasso\VettoreRipasso\bin\Debug\VettoreRipasso.exe
+E:\Osti_Leonardo_4F\VettoreRipasso\VettoreRipasso\bin\Debug\VettoreRipasso.pdb
+E:\Osti_Leonardo_4F\VettoreRipasso\VettoreRipasso\obj\Debug\VettoreRipasso.csprojAssemblyReference.cache
+E:\Osti_Leonardo_4F\VettoreRipasso\VettoreRipasso\obj\Debug\VettoreRipasso.csproj.CoreCompileInputs.cache
+E:\Osti_Leonardo_4F\VettoreRipasso\VettoreRipasso\obj\Debug\VettoreRipasso.exe
+E:\Osti_Leonardo_4F\VettoreRipasso\VettoreRipasso\obj\Debug\VettoreRipasso.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\VettoreRipasso\bin\Debug\VettoreRipasso.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\VettoreRipasso\bin\Debug\VettoreRipasso.exe
+C:\Users\utente\Desktop\Esercizi_Cs\VettoreRipasso\bin\Debug\VettoreRipasso.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\VettoreRipasso\obj\Debug\VettoreRipasso.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\VettoreRipasso\obj\Debug\VettoreRipasso.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\VettoreRipasso\obj\Debug\VettoreRipasso.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\VettoreRipasso\obj\Debug\VettoreRipasso.exe
+C:\Users\utente\Desktop\Esercizi_Cs\VettoreRipasso\obj\Debug\VettoreRipasso.pdb
