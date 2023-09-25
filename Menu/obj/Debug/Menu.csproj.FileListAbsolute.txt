@@ -1,0 +1,8 @@
+C:\Users\utente\Desktop\Esercizi_Cs\Menu\bin\Debug\Menu.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\Menu\bin\Debug\Menu.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Menu\bin\Debug\Menu.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\Menu\obj\Debug\Menu.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Menu\obj\Debug\Menu.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Menu\obj\Debug\Menu.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Menu\obj\Debug\Menu.pdb
