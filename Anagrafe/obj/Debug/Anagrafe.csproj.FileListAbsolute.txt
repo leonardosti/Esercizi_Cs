@@ -1,0 +1,8 @@
+C:\Users\utente\Desktop\Esercizi_Cs\Anagrafe\bin\Debug\Anagrafe.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\Anagrafe\bin\Debug\Anagrafe.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Anagrafe\bin\Debug\Anagrafe.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\Anagrafe\obj\Debug\Anagrafe.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Anagrafe\obj\Debug\Anagrafe.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Anagrafe\obj\Debug\Anagrafe.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Anagrafe\obj\Debug\Anagrafe.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Anagrafe\obj\Debug\Anagrafe.pdb
