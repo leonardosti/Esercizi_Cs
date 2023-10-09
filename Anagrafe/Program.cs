@@ -34,7 +34,7 @@ namespace Anagrafe
         {
             int scelta, cnt = 0;
             string intestazione = "COMUNE";
-            string[] opzioni = { "Inserisci", "Visualizza", "Modifica", "Esci" };
+            string[] opzioni = { "Inserisci", "Visualizza", "Modifica", "Eta'", "Esci" };
             Anagrafe[] cittadini = new Anagrafe[3];
 
             do
@@ -80,7 +80,29 @@ namespace Anagrafe
                             }
                             else
                             {
-                                Cerca(cittadini, cnt);
+                                Modifica(cittadini, cnt);
+                            }
+                            break;
+                        case 4:
+                            if (cnt == 0)
+                            {
+                                Errore("Comune vuoto");
+                                Console.ReadLine();
+                            }
+                            else
+                            {
+                                int indice = RicercaCF(cittadini, cnt);
+                                if (indice == -1)
+                                {
+                                    Errore("Persona non trovata");
+                                    Console.WriteLine("Premi invio per continuare");
+                                    Console.ReadLine();
+                                }
+                                else
+                                {
+                                    Eta(cittadini[indice].data);
+                                    Console.ReadLine();
+                                }
                             }
                             break;
                     }
@@ -186,13 +208,46 @@ namespace Anagrafe
             }
             Console.ReadLine();
         }
-        static void Cerca(Anagrafe[] cittadini, int cnt)
+        static void Modifica(Anagrafe[] cittadini, int cnt)
+        {
+            int scelta = 0, indice = 0;
+
+            indice = RicercaCF(cittadini, cnt);
+            do
+            {
+                if (indice == -1)
+                {
+                    Errore("Persona non trovata");
+                    Console.WriteLine("Premi invio per continuare");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    scelta = Menu(Enum.GetNames(typeof(StatoCivile)), "STATO CIVILE");
+                    if (scelta == -1)
+                    {
+                        Errore("Errore nella scelta");
+                    }
+                    else
+                    {
+                        cittadini[indice].statoCivile = (StatoCivile)scelta - 1;
+                    }
+                }
+
+            } while (scelta == -1);
+        }
+        static void Eta(DateTime data)
+        {
+            TimeSpan eta = DateTime.Now - data;
+            Console.WriteLine("Eta': {0}", (int)(eta.Days/365));
+        }
+        static int RicercaCF(Anagrafe[] cittadini, int cnt)
         {
             string CF = "";
-            int scelta = 0, indice = 0;
+            int indice = 0;
             bool trovata = false;
 
-            Console.WriteLine("Inserire il Codice Fiscale della persona che si vuole modificare");
+            Console.WriteLine("Inserire il Codice Fiscale della persona da ricercare");
             while (ControlloCF(Console.ReadLine(), ref CF))
             {
                 Errore("Codice Fiscale non valido");
@@ -208,23 +263,11 @@ namespace Anagrafe
             }
             if (!trovata)
             {
-                Errore("Persona non trovata");
-                Console.ReadLine();
+                return -1;
             }
             else
             {
-                do
-                {
-                    scelta = Menu(Enum.GetNames(typeof(StatoCivile)), "STATO CIVILE");
-                    if (scelta == -1)
-                    {
-                        Errore("Errore nella scelta");
-                    }
-                    else
-                    {
-                        cittadini[indice].statoCivile = (StatoCivile)scelta - 1;
-                    }
-                } while (scelta == -1);
+                return indice;
             }
         }
         static bool ControlloStringhe(string stringa, ref string temp)
