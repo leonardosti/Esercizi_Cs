@@ -34,7 +34,7 @@ namespace Anagrafe
         {
             int scelta, cnt = 0;
             string intestazione = "COMUNE";
-            string[] opzioni = { "Inserisci", "Visualizza", "Modifica", "Eta'", "Esci" };
+            string[] opzioni = { "Inserisci", "Visualizza", "Modifica", "Eta'", "Elimina", "Esci" };
             Anagrafe[] cittadini = new Anagrafe[3];
 
             do
@@ -101,6 +101,28 @@ namespace Anagrafe
                                 else
                                 {
                                     Eta(cittadini[indice].data);
+                                    Console.ReadLine();
+                                }
+                            }
+                            break;
+                        case 5:
+                            if (cnt == 0)
+                            {
+                                Errore("Comune vuoto");
+                                Console.ReadLine();
+                            }
+                            else
+                            {
+                                int indice = RicercaCF(cittadini, cnt);
+                                if (indice == -1)
+                                {
+                                    Errore("Persona non trovata");
+                                    Console.WriteLine("Premi invio per continuare");
+                                    Console.ReadLine();
+                                }
+                                else
+                                {
+                                    Elimina(cittadini, ref cnt);
                                     Console.ReadLine();
                                 }
                             }
@@ -239,7 +261,15 @@ namespace Anagrafe
         static void Eta(DateTime data)
         {
             TimeSpan eta = DateTime.Now - data;
-            Console.WriteLine("Eta': {0}", (int)(eta.Days/365));
+            Console.WriteLine("Eta': {0}", (int)(eta.Days / 365));
+        }
+        static void Elimina(Anagrafe[] cittadini, ref int cnt)
+        {
+            for (int i = 0; i < cittadini.Length; i++)
+            {
+                cittadini[i] = cittadini[i + 1];
+            }
+            cnt--;
         }
         static int RicercaCF(Anagrafe[] cittadini, int cnt)
         {
