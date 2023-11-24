@@ -156,13 +156,13 @@ namespace Anagrafe
             bool doppione = false;
 
             Console.WriteLine("Inserire il nome:");
-            while (ControlloStringhe(Console.ReadLine().ToLower(), ref cittadini[cnt].nome))
+            while (!String.IsNullOrEmpty(cittadini[cnt].nome))
             {
                 Errore("Nome non valido");
             }
             Console.WriteLine("============================================");
             Console.WriteLine("Inserire il cognome:");
-            while (ControlloStringhe(Console.ReadLine().ToLower(), ref cittadini[cnt].cognome))
+            while (!string .IsNullOrEmpty(cittadini[cnt].cognome))
             {
                 Errore("Cognome non valido");
             }
@@ -300,18 +300,6 @@ namespace Anagrafe
                 return indice;
             }
         }
-        static bool ControlloStringhe(string stringa, ref string temp)
-        {
-            if (string.IsNullOrEmpty(stringa))
-            {
-                return true;
-            }
-            else
-            {
-                temp = stringa;
-                return false;
-            }
-        }
         static bool ControlloCF(string stringa, ref string temp)
         {
             if (stringa.Length != 16)
@@ -326,7 +314,6 @@ namespace Anagrafe
         }
         static void Errore(string message)
         {
-
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(message);
             Console.ForegroundColor = ConsoleColor.White;
