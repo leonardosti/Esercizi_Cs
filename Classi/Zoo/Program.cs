@@ -8,28 +8,51 @@ namespace Zoo
 {
     internal class Program
     {
+        const int nMax = 4;
         static void Main(string[] args)
         {
             // lo Zoo di casa mia
-            List<AnimaleDomestico> animale = new List<AnimaleDomestico>();
-            string[] opzioni = {"Inserisci", "Visualizza", "Esci"};
-            int scelta = Menu(opzioni);
-            switch (scelta)
+            List<AnimaleDomestico> zoo = new List<AnimaleDomestico>();
+            string[] opzioni = { "Inserisci", "Visualizza", "Esci" };
+            int scelta;
+
+            do
             {
-                case 0:
-                    Input();
-                    break;
-                case 1:
-                    break;
-                case 2:
-                    break;
-                default:
-                    break;
-            }
+                scelta = Menu(opzioni);
+                switch (scelta)
+                {
+                    case 0:
+                        if (nMax <= zoo.Count)
+                        {
+                            AnimaleDomestico animale = new AnimaleDomestico();
+
+                            animale.SetSpecie(Console.ReadLine());
+                            animale.SetRazza(Console.ReadLine());
+                            animale.SetCibo(Console.ReadLine());
+                            animale.SetVerso(Console.ReadLine());
+                            animale.SetQuantita(InputInteri());
+                        }
+                        break;
+                    case 1:
+                        if (nMax <= zoo.Count)
+                        {
+                            zoo.ForEach(a => Console.WriteLine(a.ToString()));
+                        }
+                        else
+                        {
+                            Console.WriteLine("Zoo vuoto");
+                        }
+                        break;
+                    default:
+                        Console.WriteLine("Errore nella scelta");
+                        break;
+                }
+            } while (scelta == opzioni.Length);
+            Console.ReadLine();
         }
         static int Menu(string[] opzioni)
         {
-            int scelta = 0;
+            int scelta;
             for (int i = 0; i < opzioni.Length; i++)
             {
                 Console.WriteLine($"{i + 1}- {opzioni[i]}");
@@ -45,20 +68,19 @@ namespace Zoo
             }
             return scelta;
         }
-        static void Input(List<AnimaleDomestico> animale1)
+        static int InputInteri()
         {
-            Console.WriteLine("Inserire la specie:");
-            animale1.GetSpecie(Console.ReadLine());
-            Console.WriteLine("Inserire la razza:");
-            animale1.GetRazza(Console.ReadLine());
-            Console.WriteLine("Inserire la cibo:");
-            animale1.GetCibo(Console.ReadLine());
-            Console.WriteLine("Inserire la verso:");
-            animale1.GetVerso(Console.ReadLine());
-            Console.WriteLine("Inserire la quantità:");
-            animale1.GetQuantita(Convert.ToInt32(Console.ReadLine()));
-            Console.WriteLine("Inserire lo stato:");
-            animale1.GetMangiato(Console.ReadLine());
+            int n;
+            try
+            {
+                n = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (Exception error)
+            {
+                Console.WriteLine(error.Message);
+                throw;
+            }
+            return n;
         }
     }
 }

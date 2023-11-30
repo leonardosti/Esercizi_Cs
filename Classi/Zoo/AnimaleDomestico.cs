@@ -8,68 +8,66 @@ namespace Zoo
 {
     internal class AnimaleDomestico
     {
-        string specie;
-        string razza;
-        string cibo;
-        string verso;
+        string specie, razza, cibo, verso;
         int quantita;
-        mangiato mangiato;
+        public override string ToString()
+        {
+            return string.Format($"specie: {specie,10}, razza: {razza,10}, cibo: {cibo,10}, \n" +
+                $"verso: {verso,10}, quantità: {quantita,10}");
+        }
 
-        // metodi
-
-        // costruttore
+        // costruttori
         public AnimaleDomestico()
         {
         }
+        public AnimaleDomestico(string specie, string razza, string cibo, string verso, int quantita)
+        {
+            this.specie = specie;
+            this.razza = razza;
+            this.cibo = cibo;
+            this.verso = verso;
+            this.quantita = quantita;
+        }
 
-        public void GetSpecie(string specie)
+        public void SetSpecie(string specie)
         {
             this.specie = specie;
         }
-        public string SetSpecie()
+        public string GetSpecie()
         {
             return this.specie;
         }
-        public void GetRazza(string razza)
+        public void SetRazza(string razza)
         {
             this.razza = razza;
         }
-        public string SetRazza()
+        public string GetRazza()
         {
             return this.razza;
         }
-        public void GetCibo(string cibo)
+        public void SetCibo(string cibo)
         {
             this.cibo = cibo;
         }
-        public string SetCibo()
+        public string GetCibo()
         {
             return this.cibo;
         }
-        public void GetVerso(string verso)
+        public void SetVerso(string verso)
         {
             this.verso = verso;
         }
-        public string SetVerso()
+        public string GetVerso()
         {
             return this.verso;
         }
-        public void GetQuantita(int quantita)
+        public void SetQuantita(int quantita)
         {
             this.quantita = quantita;
         }
-        public int SetQuantita()
+        public int GetQuantita()
         {
             return this.quantita;
         }
-        public void GetMangiato(mangiato mangiato)
-        {
-            this.mangiato = mangiato;
-        }
-        public mangiato SetMangiato()
-        {
-            return this.mangiato;
-        }
-
     }
 }
