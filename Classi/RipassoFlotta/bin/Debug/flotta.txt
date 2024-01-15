@@ -1,0 +1,10 @@
+15/01/2024 15:53:09
+marca:       fiat, modello:      panda, codice:     0,
+targa:    CM784RN, posti auto:  otto
+marca:       audi, modello:         rs, codice:     1,
+targa:    EB498VQ, posti auto: cinque
+marca:     toyota, modello:      supra, codice:     2,
+targa:    MS863BQ, posti auto: quattro
+marca: lamborghini, modello:       urus, codice:     3,
+targa:    ZZ709FY, posti auto:  otto
+===========================================================

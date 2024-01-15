@@ -1,0 +1,8 @@
+C:\Users\utente\Desktop\Esercizi_Cs\Classi\RipassoFlotta\bin\Debug\RipassoFlotta.exe.config
+C:\Users\utente\Desktop\Esercizi_Cs\Classi\RipassoFlotta\bin\Debug\RipassoFlotta.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Classi\RipassoFlotta\bin\Debug\RipassoFlotta.pdb
+C:\Users\utente\Desktop\Esercizi_Cs\Classi\RipassoFlotta\obj\Debug\RipassoFlotta.csproj.AssemblyReference.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Classi\RipassoFlotta\obj\Debug\RipassoFlotta.csproj.SuggestedBindingRedirects.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Classi\RipassoFlotta\obj\Debug\RipassoFlotta.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Esercizi_Cs\Classi\RipassoFlotta\obj\Debug\RipassoFlotta.exe
+C:\Users\utente\Desktop\Esercizi_Cs\Classi\RipassoFlotta\obj\Debug\RipassoFlotta.pdb
